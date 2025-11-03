@@ -11483,3 +11483,15 @@ footer.row {
 
 h1 {
   white-space: nowrap;}
+}
+.social-icon {
+  color: #E2725B;        /* Terracota */
+  font-size: 2.3rem;     /* Mismo tamaño para ambos */
+  vertical-align: middle;
+  transition: color 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.social-icon:hover {
+  color: #c35b45;        /* Terracota más oscuro */
+}
